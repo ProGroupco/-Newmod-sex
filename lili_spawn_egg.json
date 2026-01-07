@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "miy:lili_spawn_egg",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:entity_placer": {
+        "entity": "miy:lili"
+      },
+      "minecraft:display_name": {
+        "value": "Spawn Lili"
+      },
+      "minecraft:icon": {
+        "texture": "spawn_egg",
+        "frame": 0
+      },
+      "minecraft:stacked_by_data": true
+    }
+  }
+}
