@@ -1,0 +1,19 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "miy:gold_ring",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Gold Ring"
+      },
+      "minecraft:icon": {
+        "texture": "gold_nugget"
+      },
+      "minecraft:stack_size": 1,
+      "minecraft:hand_equipped": true
+    }
+  }
+}
