@@ -1,0 +1,38 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "miy:lili_child",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:is_baby": {},
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:ageable": {
+        "duration": 1200,
+        "feed_items": [ "apple" ],
+        "grow_up": {
+          "event": "minecraft:ageable_grow_up",
+          "target": "self"
+        }
+      },
+      "minecraft:behavior.follow_parent": {
+        "priority": 1,
+        "speed_multiplier": 1.1
+      },
+      "minecraft:behavior.panic": {
+        "priority": 2,
+        "speed_multiplier": 1.5
+      }
+    },
+    "events": {
+      "minecraft:ageable_grow_up": {
+        "transform_to_item": "miy:lili"
+      }
+    }
+  }
+}
