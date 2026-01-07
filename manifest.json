@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Adds Lili with marriage and family mechanics",
+        "name": "Lili Relationship Add-on",
+        "uuid": "enter-a-random-uuid-here",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 0]
+    },
+    "modules": [
+        {
+            "description": "Behavior logic for NPCs",
+            "type": "data",
+            "uuid": "enter-another-different-uuid-here",
+            "version": [1, 0, 0]
+        }
+    ]
+}
